@@ -122,8 +122,6 @@ export default function Home() {
                         </Typography>
                         <FacebookLogin
                             appId="610392923864718"
-                            autoLoad={true}
-                            fields="name,email,picture"
                             scope="business_management,catalog_management"
                             callback={responseFacebook}
                         />
