@@ -122,6 +122,10 @@ export default function Home() {
                         </Typography>
                         <FacebookLogin
                             appId="610392923864718"
+                            initParams={{
+                                xfbml: true,
+                                version: 'v17.0',
+                            }}
                             scope="business_management,catalog_management"
                             callback={responseFacebook}
                         />
