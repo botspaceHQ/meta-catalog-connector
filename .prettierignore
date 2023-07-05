@@ -1,0 +1,12 @@
+# Add files here to ignore them from prettier formatting
+
+/dist
+/coverage
+/node_modules
+**/node_modules
+/.vscode
+/.next
+/.github
+**/.next
+**/.history
+/.history
